@@ -57,7 +57,7 @@ bool LinkedList<T>::isEmpty(){
     return (length == 0);
 }
 template <typename T>
-bool LinkedList<T>::Find(int k, T data) const{
+int LinkedList<T>::Find(int k, T data) const{
     Node<T> *current = this->first;
     int index = 0;
     while (current->link != NULL && current->data !=data){

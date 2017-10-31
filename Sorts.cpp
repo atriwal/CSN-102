@@ -1,9 +1,4 @@
-#include<cstdlib>
-#include<iostream>
-#include<queue>
-#include<string>
-#include<sys/time.h>
-#include<math.h>
+#include<bits/stdc++.h>
 
 using namespace std;
 
